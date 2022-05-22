@@ -31,7 +31,6 @@ In order to set it up, follow the intructions below:
 7. In config/production.rb add the following code (Don't forget to delete the duplicate mailers lines in this file.):
 
 ```
-# Configuration action_mailer
   config.action_mailer.perform_caching = false
   config.action_mailer.raise_delivery_errors = true
   config.action_mailer.perform_deliveries = true
@@ -47,3 +46,11 @@ In order to set it up, follow the intructions below:
     :enable_starttls_auto => true
 }
 ```
+
+8. The last part, in config/initializers/devise.rb you have to add the email that you used in order to verify your Sender identity:
+
+```
+  config.mailer_sender = 'sender.identity@company.com'
+```
+
+
