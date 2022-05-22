@@ -1,5 +1,8 @@
 # Blog App.
 
+This blog app was built in order to send email confirmations using Sendgrid.
+All the information and steps required you can find them in the section below.
+
 ## Sendgrid.
 
 This application uses Sendgrid as a 3° party service to confirm users' emails.
@@ -53,4 +56,10 @@ In order to set it up, follow the intructions below:
   config.mailer_sender = 'sender.identity@company.com'
 ```
 
+## Author
 
+* Jorge Ortiz.
+* Software Engineer.
+* San Luis Potosí, S.L.P. México.
+* ortiz.mata.jorge@gmail.com
+* jorge.ortiz107@outlook.com
