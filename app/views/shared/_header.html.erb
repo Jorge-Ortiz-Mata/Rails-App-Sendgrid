@@ -1,15 +1,14 @@
 <header>
     <nav>
         <p>
-            Blog App.
+            <%= link_to 'Blog App', root_path, class:'nav-link' %>
         </p>
         <ul>
-            <li>Home</li>
             <% if current_user %>
-                <li><%= link_to 'Sign out', destroy_user_session_path, method: :delete %></li>
+                <li><%= link_to 'Sign out', destroy_user_session_path, method: :delete, class:'nav-link' %></li>
             <% else %>
-                <li><%= link_to 'Sign up', new_user_registration_path %></li>
-                <li><%= link_to 'Sign in', new_user_session_path %></li>
+                <li><%= link_to 'Sign up', new_user_registration_path, class:'nav-link' %></li>
+                <li><%= link_to 'Sign in', new_user_session_path, class:'nav-link' %></li>
             <% end %>
         </ul>
     </nav>

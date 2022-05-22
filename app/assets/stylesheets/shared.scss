@@ -1,0 +1,42 @@
+
+// ------------------ HEADER Section ----------------
+nav{
+    background-color: #004c46;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    font-weight: 500;
+}
+
+nav p{
+    margin: auto auto auto 20px;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav ul li{
+    display: inline-flex;
+    margin: auto 20px auto auto;
+}
+
+.nav-link{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+// ------------------ FOOTER Section ----------------
+
+footer{
+    background-color: #004c46;
+    color: #ffffff;
+    padding: 20px;
+}
+
+footer p{
+    text-align: center;
+    font-weight: 500;
+    font-size: 0.9rem;
+}
